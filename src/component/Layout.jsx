@@ -8,7 +8,7 @@ const Layout = () => {
   const { darkTheme } = useContext(ThemeContext);
 
   return (
-    <div className={`h-screen`}>
+    <div className={`h-screen `}>
       <Navbar />
       <Outlet />
       <Footer />
